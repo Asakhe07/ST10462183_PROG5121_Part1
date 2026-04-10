@@ -8,3 +8,16 @@ Log in using their credentials
 Receive feedback messages based on their login status
 
 The system includes input validation and unit testing to ensure correctness.
+
+Features
+Username validation (must contain "_" and be ≤ 5 characters)
+Password complexity validation:
+Minimum 8 characters
+At least 1 uppercase letter
+At least 1 number
+At least 1 special character
+Phone number validation (must start with +27 and be 12 digits)
+User registration system
+Login authentication
+Console-based user interaction
+Unit testing using JUnit

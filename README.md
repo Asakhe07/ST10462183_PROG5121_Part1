@@ -32,3 +32,40 @@ Phone number validation
 User registration
 Login functionality
 Login status messages
+
+All tests pass successfully after fixing logic errors in the Login class.
+
+Project Structure
+com.mycompany.chatapp
+│
+├── Login.java        // Handles validation and login logic
+├── MainApp.java      // Runs the application (user interaction)
+└── LoginTest.java    // Unit tests for the Login class
+
+How to Run the Program
+Open the project in NetBeans or any Java IDE
+Run MainApp.java
+Follow the prompts:
+Enter registration details
+Then log in using the same details
+
+How It Works
+User registers by entering:
+Username
+Password
+Phone number
+The system validates all inputs:
+If invalid, an error message is shown
+If valid, the user is registered
+User logs in:
+If credentials match, a welcome message is displayed
+If incorrect, an error message is shown
+
+Known Fixes Applied
+
+The following issues were fixed in the original code:
+
+Username validation incorrectly allowed all inputs
+Password validation did not check for numbers
+Password length condition was incorrect
+Phone number validation allowed incorrect lengths

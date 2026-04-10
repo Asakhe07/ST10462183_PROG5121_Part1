@@ -21,3 +21,14 @@ User registration system
 Login authentication
 Console-based user interaction
 Unit testing using JUnit
+
+Unit Testing
+
+Unit tests were created using JUnit 5 to test:
+
+Username validation
+Password complexity
+Phone number validation
+User registration
+Login functionality
+Login status messages
